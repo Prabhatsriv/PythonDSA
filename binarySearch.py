@@ -15,7 +15,7 @@ def BinarySearch(seq,v):
                 midPos = len(seq)//2
                 print(f"midPos inside while loops is {midPos}")
         print(midPos)
-    return "Not Found"
+    return "Not Found and this one should go to Feature001"
         
 
 
