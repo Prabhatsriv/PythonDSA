@@ -4,7 +4,7 @@ def BinarySearch(seq,v):
     print(midPos)
     while(midPos > 0):
         if seq[midPos] == v: 
-            return "Found"
+            return "Found in the List"
         else: 
             if seq[midPos] < v: 
                 seq = seq[:midPos]
